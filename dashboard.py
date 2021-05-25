@@ -24,7 +24,7 @@ resolution = st.sidebar.number_input("Choose Louvain resolution",
 
 
 top_n_markers = st.sidebar.slider("Choose number of top marker genes",
-                value=1000, min_value=0, max_value=10000, step=100
+                value=100, min_value=0, max_value=1000, step=100
                 )
 
 # Round resolution (computer/float calculation mismanagement)
@@ -32,6 +32,8 @@ resolution = round(resolution, 2)
 st.sidebar.write("Resolution chosen: ", resolution)
 st.sidebar.write("Top number of markers chosen: ", top_n_markers)
 
+st.sidebar.markdown("""Definition of top-n-markers:
+_The number of top data-derived marker genes to use. By default the top 100 marker genes are used. If adj_pval_threshold is set along with_""")
 
 ### MAIN
 
