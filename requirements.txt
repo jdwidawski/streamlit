@@ -7,3 +7,4 @@ pandas==1.2.1
 streamlit==0.82.0
 plotly==4.14.1
 numba==0.51.0
+python-igraph==0.9.1
