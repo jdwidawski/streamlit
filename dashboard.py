@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from matplotlib import colors
 import plotly.figure_factory as ff
 import random
-import pickle
+import pickle5 as pickle
 st.set_option('deprecation.showPyplotGlobalUse', False)
 warnings.filterwarnings("ignore")
 
